@@ -1,0 +1,89 @@
+body {font-family: Arial;}
+
+.panel
+{
+     margin-bottom: 0px;
+}
+
+.panel-title{
+    color: black;
+	font-weight: bold;
+}
+
+.panel-primary {
+    border-color: #a7abaf;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #a7abaf;
+    border-color: #a7abaf;
+}
+
+.panel-body{
+background-color: #c4cad0;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+	font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #d41515;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+h4
+{
+background-color: black;
+color: white;
+margin-bottom: 0px;
+}
